@@ -32,9 +32,9 @@ img {
 p {
     padding: var(--padding);
 }
+/*next code*/
 
 
-/*
 main {
     max-width: 840px;
 }
@@ -71,6 +71,60 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }*/
+
+/*next code*/
+
+
+/*WEEK 3 CODE ALONG*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/*class selectors*/
+.box {
+    margin:1rem ;
+    border:1px solid rgb(0 0 0 / 10%) ;
+    padding:1 rem ;
+    background-color: #ddd;
+    color: #000;
+}
+aside {
+  width: 20em;
+  text-align: center;
+  clear: both;
+
+
+}
+main img {
+    float: right;
+
+}
+
+aside h2 {
+    position: relative;
+    left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
