@@ -5,6 +5,7 @@
     --accent2-color:#e9c46a;
     --heading-font:"Times New Roman", "Georgia",serif;
     --body-font:Arial, Helvetica, Sans-serif;
+
 }
 * {
     margin: 0;
@@ -16,7 +17,7 @@ body {
     color: var(--accent1-color);
 }
 header,main,footer {
-    width: 900px;
+    width: 840px;
     margin: 0 auto;
 }
 h1,h2 {
@@ -29,57 +30,65 @@ nav,p,section, article {
     margin: 16px;
     padding: 8px;
 }
-.social-media  {
+.socialmedia  {
     text-decoration: none;
 }
 
-.social-media img {
+.socialmedia img {
   width: 30px;
   height: 30px;
 }
 
 .hero {
     position: relative;
+    height: 500px;
+    margin-bottom: 2rem;
+
+    
 }
-.hero img {
-    display: block;
+.hero > img {
     width: 100%;
-    height: auto;
-    
+    height: 100%;
+    object-fit: cover;
+
     
 }
+    
 .hero h1 {
     position: absolute;
     top: 10px;
-    width: 100%;
+    left: 200px;
     padding: 5px;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.8;
     background-color: var(--accent1-color);
     color: #fff;
-    clear: both;
-}
 
+}
+  
 .hero article {
     position: absolute;
-    clear: both;
-    color: #fff;
+    bottom: 0;
+    right: 0;
+    width: 800px;
+    padding: 5px;
+    padding-bottom: 1px;
     background-color: var(--accent1-color);
-    top: 160px;
+    color: aliceblue;
+    border-radius: 2px;
+    opacity: 0.8;
     
+}
     
+.hero > article img {
+    float: right;
+    clear: both;
 }
 
-.hero img {
-    float: right;
-    
-}
-section h2 {
-    background-color: var(--accent1-color);
+section > h2 {
+    background-color: #264653;
     color: #fff;
     text-align: center;
     padding: 10px;
-    
 }
-
 
