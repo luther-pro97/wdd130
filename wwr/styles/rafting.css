@@ -82,7 +82,7 @@ nav,p,section, article {
     
 }
     
-.hero > article img {
+.hero  article img {
     float: right;
     clear: both;
 }
@@ -100,7 +100,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    background-color: aquamarine;
+    background-color: var(--secondary-color);
     height: 100px;
     justify-content: space-evenly;
 
@@ -109,7 +109,6 @@ header {
 .navigation {
     display: flex;
     justify-content: flex-end;
-    justify-content: space-around;
 }
 #logo {
     width: 120px;
@@ -126,7 +125,7 @@ nav {
 }
 nav ul li {
     padding: 0.5rem 1rem;
-    border-right: 1px solid var(--accent1-color);
+    border-right: 1px solid var(--accent2-color);
 }
 
 nav ul li:last-child {
@@ -167,14 +166,8 @@ section {
     grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
 }
-footer {
-    border: 2px solid var(--accent1-color);
-    padding: 1rem;
-    margin: 1.5rem 0;
-}
-footer {
-    margin: 0 auto;
-}
+
+
 
 .socialmedia,
 .socialmedia a,
@@ -185,4 +178,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr auto;
     align-items: center;
+    border: 2px solid var(--accent1-color);
+    padding: 1rem;
+    margin: 0 auto;
 }
