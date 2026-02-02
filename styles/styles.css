@@ -1,11 +1,14 @@
-/*:root {
-    --padding : 10px
+:root {
+    --padding : 10px ;
+    width: 840px;
+    margin-left: 250px;
+    margin-top: 100px;
 
 }
 
 
 
-nav {
+/*nav {
     background-color: darkblue;
     padding: var(--padding);
 }
@@ -13,9 +16,9 @@ nav a {
 
     color: white;
     display: block;
-    padding: 20px;
+    padding: 20px;*/
 
-}
+
 
 h1 {
     color: darkblue;
@@ -23,13 +26,13 @@ h1 {
 
 img {
 
-    width: 150;
+    width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
-p {
+/*p {
     padding: var(--padding);
 }
 /*next code*/
@@ -70,7 +73,7 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
-}*/
+}
 
 /*next code*/
 
@@ -86,7 +89,7 @@ footer {
 .box {
     margin:1rem ;
     border:1px solid rgb(0 0 0 / 10%) ;
-    padding:1 rem ;
+    padding: 1rem ;
     background-color: #ddd;
     color: #000;
 }
@@ -107,16 +110,50 @@ aside h2 {
     left: 5px;
 }
 
+header, footer {
+  max-width: 840px;
+  margin: 0 auto;
+}
 
+nav {
+  background-color: steelblue;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
-
-
-
-
-
-
-
-
+nav a {
+  display: block;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+}
+h1 { 
+    border-bottom: 1px solid black
+}
+.grid {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto auto;
+  
+  
+}
+    
+main {
+  grid-column: 2/3;
+  
+}
+    
+aside {
+  width: 20rem;
+  position: relative;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  
+}
 
 
 
