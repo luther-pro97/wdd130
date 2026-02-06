@@ -200,10 +200,7 @@ footer {
     grid-template-columns: 1fr 1fr  
      
 }
-.purpose {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+
 .form-row {
     display: flex;
     flex-direction: column; 
