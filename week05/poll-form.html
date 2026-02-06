@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Page</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+
+
+</head>
+
+<body>
+    <header>
+        <h1>WDD 130 HTML Preference Poll</h1>
+
+    </header>
+    <br>
+    <main>
+
+
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+
+                <div class="form-item">
+                    <label for="fullname">Full Name :</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+
+                <div>
+                    <label for="useremail">Email :</label>
+                    <input type="email" id="useremail" name="useremail" required>
+
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Survey Questions</legend>
+
+
+
+                <div>
+                    <label for="browser">What is your favourite browser?</label>
+                    <select name="browser" id="browser">
+                        <option value="chrome">Chrome</option>
+                        <option value="edge">Edge</option>
+                        <option value="Firefox">Firefox</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div>
+
+                    <label for="pet">Do you have a household pet ?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
+
+                <div>
+                    <label for="feedback">list the places you lived</label>
+                    <textarea id="feedback" name="feedback" rows="4"
+                        placeholder="Cape Town, Bulawayo, Johannesburg, Harare"></textarea>
+                </div>
+            </fieldset>
+            <br>
+
+            <div>
+                <button type="submit">Submit Poll</button>
+            </div>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

@@ -162,9 +162,10 @@ section {
 }
 
 .adventure-gallery {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
+    justify-content: space-evenly;
 }
 
 
@@ -181,4 +182,69 @@ footer {
     border: 2px solid var(--accent1-color);
     padding: 1rem;
     margin: 0 auto;
+    color: aliceblue;
+    background-color:#264653
+}
+
+.address {
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+}
+.address h1,p {
+    margin: 0;
+}
+.container {
+    margin: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr  
+     
+}
+.purpose {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.form-row {
+    display: flex;
+    flex-direction: column; 
+    gap: 0.5rem;
+}
+
+
+.purpose {
+    display: grid;
+    grid-template-columns: 200 1fr; /* legend | radios */
+    align-items: start;
+    border: none;
+    column-gap: 3px;
+}
+
+.purpose p {
+    grid-column: 1/2;
+    font-weight: bold;
+    align-self: center;
+
+
+}
+
+.purpose-options {
+    grid-column: 2 / 3;
+    margin: 0;
+    
+}
+
+.purpose-options label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 4px;
+}
+input[type="text"] , input[type="email"] {
+    margin-left: 10px;
 }
