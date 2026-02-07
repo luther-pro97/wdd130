@@ -188,10 +188,10 @@ footer {
 
 .address {
     display: grid;
-    flex-direction: row;
     justify-content: center;
 }
-.address h1,p {
+.address h1,
+.address p {
     margin: 0;
 }
 .container {
@@ -210,7 +210,7 @@ footer {
 
 .purpose {
     display: grid;
-    grid-template-columns: 200 1fr; /* legend | radios */
+    grid-template-columns: 200px 1fr; /* legend | radios */
     align-items: start;
     border: none;
     column-gap: 3px;
